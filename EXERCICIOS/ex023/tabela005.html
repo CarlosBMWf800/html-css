@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: chartreuse;
+        }
+        col.cnome {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof"> 
+        </colgroup>
+        <caption>Cadastro dos Amigos</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+            
+        </tr>
+        <tr>
+            <th>Blenda</th>
+            <th>F</th>
+            <th>22</th>
+            <th>Psicológa</th>
+        </tr>
+        <tr>
+            <th>Carlos</th>
+            <th>M</th>
+            <th>26</th>
+            <th>Programador</th>
+        </tr>
+
+        <tr>
+            <th>Fhellype</th>
+            <th>M</th>
+            <th>25</th>
+            <th>Programador</th>
+        </tr>
+        <tr>
+            <th>João</th>
+            <th>M</th>
+            <th>24</th>
+            <th>Urdidor</th>
+        </tr>
+        <tr>
+            <th>Lucas</th>
+            <th>M</th>
+            <th>28</th>
+            <th>Psicólogo</th>
+        </tr>
+        <tr>
+            <th>Marcos</th>
+            <th>M</th>
+            <th>25</th>
+            <th>Psicólogo</th>
+        </tr>
+        <tr>
+            <th>Matheus</th>
+            <th>M</th>
+            <th>30</th>
+            <th>Engenheiro</th>
+        </tr>
+        <tr>
+            <th>Thiago</th>
+            <th>F</th>
+            <th>25</th>
+            <th>Engenheiro</th>
+        </tr>
+        <tr>
+            <th>Welington</th>
+            <th>M</th>
+            <th>25</th>
+            <th>Programador</th>
+        </tr>
+        
+        </tr>
+    </table>
+    
+</body>
+</html>
